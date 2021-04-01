@@ -42,6 +42,19 @@
         0 0 0 100px rgba(0,0,0,0.1) inset;
 }
 
+.header .header_icon {text-align: center; margin-top: 40px; padding-bottom: 45px;}
+.header .header_icon li {display: inline; margin: 0 2px;}
+.header .header_icon li a {
+    background-color: #3192bf;
+    border-radius: 50%;
+    width: 60px; height: 60px; color: #fff;
+    display: inline-block;
+    font-size: 35px;
+    line-height: 60px;
+}
+.header .header_icon li a span {
+    opacity: 0;
+}
 
 /* media query*/
 @media (max-width: 1220px){
